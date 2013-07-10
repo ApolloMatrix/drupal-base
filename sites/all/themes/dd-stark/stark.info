@@ -1,0 +1,29 @@
+name = Stark
+description = This theme demonstrates Drupal's default HTML markup and CSS styles. To learn how to build your own theme and override Drupal's default code, see the <a href="http://drupal.org/theme-guide">Theming Guide</a>.
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/phones.css
+stylesheets[all][] = css/jquery.selectbox.css
+
+scripts[] = js/jquery-noconflict.js
+scripts[] = js/jquery-1.8.3.js
+scripts[] = js/jquery.jcarousel.min.js
+scripts[] = js/jquery.selectbox-0.2.min.js
+scripts[] = js/script.js
+
+features[] = main_menu
+features[] = secondary_menu
+
+regions[featured] = Featured
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+; Information added by drupal.org packaging script on 2013-04-03
+version = "7.22"
+project = "drupal"
+datestamp = "1365027012"
+
