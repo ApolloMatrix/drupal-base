@@ -1,0 +1,26 @@
+name = usbgtheme
+description = Custom theme for Apollo Demonstration
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[sidebar_first] = Right sidebar
+regions[content] = Content
+regions[footer] = Footer
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/phones.css
+stylesheets[all][] = css/jquery.selectbox.css
+
+scripts[] = js/jquery-noconflict.js
+scripts[] = js/jquery-1.8.3.js
+scripts[] = js/jquery.jcarousel.min.js
+scripts[] = js/jquery.selectbox-0.2.min.js
+scripts[] = js/script.js
+
+features[] = name
+features[] = main_menu
+
+
+screenshot = screenshot.png

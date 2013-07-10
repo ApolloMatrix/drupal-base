@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+.sbHolder{
+    border: 1px solid #999999;
+    background: url("../images/select-arrow.png") no-repeat right 3px;
+    font-size: 20px;
+    cursor: pointer;
+	display: inline-block;
+	height: 46px;
+	position: relative;
+	width: 562px;
+}
+.sbHolder:focus .sbSelector{
+	
+}
+.sbSelector{
+	display: block;
+	height: 30px;
+	left: 0;
+	line-height: 30px;
+	outline: none;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 10px;
+	top: 7px;
+	width: 170px;
+}
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover{
+	color: #000;
+	outline: none;
+	text-decoration: none;
+}
+.sbToggle{
+	display: block;
+	height: 30px;
+	outline: none;
+	position: absolute;
+	right: 5px;
+	top: 0;
+	width: 30px;
+}
+
+.sbHolderDisabled{
+	background-color: #3C3C3C;
+	border: solid 1px #515151;
+}
+.sbHolderDisabled .sbHolder{
+	
+}
+.sbHolderDisabled .sbToggle{
+	
+}
+.sbOptions{
+	background-color: #fff;
+	border: solid 1px #515151;
+	list-style: none;
+	left: -1px;
+	padding: 0;
+	position: absolute;
+	top: 46px !important;
+	width: 562px;
+	z-index: 1;
+	overflow-y: auto;
+	list-style: none !important;
+}
+.sbOptions li{
+	padding: 0 7px;
+}
+.sbOptions a{
+    color: #000;
+	display: block;
+	outline: none;
+	padding: 7px 0 7px 3px;
+}
